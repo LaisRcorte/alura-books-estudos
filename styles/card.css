@@ -1,0 +1,131 @@
+/* .card{
+    background-color: var(--branco);
+    border-radius: 10px;
+    margin: 1.8em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card__conteiner-principal{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    padding: 1.4em 1em;
+}
+
+.card__conteiner{
+   text-align: left;
+   padding-right: 0.5em;
+}
+
+.card__conteiner2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card__capa{
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 1.5em 0;
+}
+
+.card__subtitulo{
+    color: var(--cor-titulo);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.card__titulo{
+    color: var(--cor-azul-degrade);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.8em 0;
+}
+
+.card__texto{
+    color: var(--cor-azul-degrade);
+    font-size: 14px;
+}
+
+.card__img{
+    margin: 1em 0 0.5em 0;
+    width: 30px;
+}
+
+.card__botao{
+    background-color: var(--cor-titulo);
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 1em 1.5em;
+}
+
+.sacola{
+    margin-left: 1em;
+} */
+
+
+
+.carde{
+    background-color: var(--branco);
+    border-radius: 10px;
+    margin: 1.8em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 1em;
+}
+
+.card__descricao{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.card__botoess{
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes{
+    display: flex;
+}
+
+.descricao_titulo{
+    color: var(--cor-titulo);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.descricao__titulo-livro{
+    color: var(--cor-azul-degrade);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.8em 0;
+}
+
+.descricao{
+    margin-right: 0.5em;
+}
+
+.descricao__texto{
+    color: var(--cor-azul-degrade);
+    font-size: 14px;
+}
+
+.botoes__item{
+    margin: 1em 0 0 0.5em; 
+}
+
+.botao__a{
+    background-color: var(--cor-titulo);
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 1em 2.2em;
+}
+
+.estrelas{
+    margin-bottom: 0.5em;
+}
