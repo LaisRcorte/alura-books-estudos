@@ -9,7 +9,7 @@
     font-weight: 400;
 }
 
-.rodape__lista{
+.rodape__lista, .linha{
     display: none;
 }
 
@@ -44,5 +44,16 @@
         text-decoration: none;
         color: var(--cinza-escuro);
         margin-left: 1em;
+    }
+}
+
+@media screen and (min-width: 1728px){
+    .linha{
+        margin-top: 2em;
+        display: flex;
+    }
+
+    .div__linha{
+        display: flex;
     }
 }

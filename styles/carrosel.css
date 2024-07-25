@@ -46,3 +46,19 @@
     }
 
 }
+
+@media screen and (min-width: 1728px){
+    .carrosel__card{
+        display: flex;
+        margin: 0 10vw 3em 10vw;
+        align-items: center;
+    }
+
+    .swiper{
+        width: 50%;
+    }
+
+    .carrosel__titulo{
+        font-size: 32px;
+    }
+}

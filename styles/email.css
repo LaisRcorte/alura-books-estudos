@@ -56,3 +56,13 @@
     }
 
 }
+
+@media screen and (min-width: 1728px){
+    .email{
+        width: 100%;
+        padding: 2.5em 30em;
+    }
+    .email__input{
+        padding-left: 2em;
+    }
+}

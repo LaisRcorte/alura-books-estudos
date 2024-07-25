@@ -2,6 +2,7 @@
     --fudo-cabecalho: #ffffff;
     --cor-titulo: #EB9B00;
     --cor-azul-degrade:#002F52;
+    --preto: #000000;
 }
 
 .cabecalho{
@@ -48,6 +49,10 @@
     padding: 1em;
 }
 
+.menu__cabecalho{
+    margin-left: 1em;
+}
+
 .lista-menu__link{
     text-decoration: none;
     color: var(--cor-azul-degrade);
@@ -67,6 +72,10 @@
 }
 
 .cabecalho__lista{
+    display: none;
+}
+
+.cabecalho__texto{
     display: none;
 }
 
@@ -118,6 +127,38 @@
 
     .conteiner__botao-secundario{
         display: none;
+    }
+
+}
+
+
+
+@media screen and (min-width: 1728px) {
+    .cabecalho__link{
+        display: flex;
+        align-items: center;
+    }
+
+    .cabecalho{
+       padding: 0 5em;
+    }
+
+    .cabecalho__lista{
+        margin-right: 30em;
+    }
+
+    .cabecalho__link{
+        font-size: 20px;
+        color: var(--preto);
+        text-decoration: none;
+    }
+
+    .cabecalho__titulo, .titulo__negrito{
+        font-size: 30px;
+    }
+
+    .cabecalho__texto{
+        display: block;
     }
 
 }
