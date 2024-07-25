@@ -30,3 +30,22 @@
     font-weight: 700;
 }
 
+@media screen and (min-width: 1024px){
+    .topicos__lista{
+        width: 90%;
+        margin: 2em auto;
+    }
+
+    .item__link{
+        font-size: 24px;
+        padding: 1em 1.5em;
+    }
+
+    .lista__item{
+        margin: 2.5em 0.8em;
+    }
+
+    .topicos__titulo{
+        font-size: 24px;
+    }
+}

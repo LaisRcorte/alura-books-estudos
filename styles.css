@@ -10,6 +10,9 @@
     --fundo: #EBECEE;
     --fonte-principal: "Poppins";
     --branco: #ffffff;
+    --fonte-secundaria: "Josefin Sans";
+    --cinza-claro: #858585;
+    --cinza-escuro: #474646;
 }
 
 *{
